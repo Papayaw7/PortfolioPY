@@ -1,0 +1,79 @@
+Html{
+width: auto 0;
+background-color:white;
+
+}
+
+h1{
+	font-family: initial; ;
+}
+
+body{
+width:1200px;
+background-color: grey;
+margin-left: auto;
+margin-right: auto;
+padding:1.5% 0 0 0;
+font-size: 20px;
+font-family:Geneva, sans-serif
+}
+
+
+.word{
+	position: absolute;
+	top:65%;
+	left:0;
+	right:0;
+}
+
+
+footer{
+	font-size: 12px;
+	color: white;
+	background-color:black;
+	position: relative;
+	clear: both;
+	height: 15px;
+	font-weight: normal;
+	text-align: center;
+}
+nav{
+	height: 80px;
+	width: 100%;
+	background: black;
+	float: left;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul {
+display: block;
+list-style-type: none;
+}	
+nav ul li{
+	margin:0;
+	padding:0;
+}
+nav ul li a{
+	float:left;
+	display:block;
+	color: yellow;
+	text-align:center;
+	padding: 28px 20px; /*added new*/
+	text-decoration:none;
+}
+
+nav ul li a:hover{
+	font-size:16px;
+	color: blue;
+}
+
+.logostyle{
+	padding-bottom: 20px;
+	float:left;
+}
+
+
+

@@ -1,0 +1,210 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title>Fun Facts </title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="grey">
+  <center>
+<h1>PAPAYAW BOAKYE-AKYEAMPONG</h1>
+
+<h2>Skills And Achievements</h2>
+</center>
+<nav>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="skills.html">SKILLS</a></li>
+<li><a href="contactus.html">CONTACT ME</a></li>
+
+</ul>
+</nav>
+
+<main>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2>Pictures and Videos</h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Media/py4.jpg" style="width:100%">
+  <div class="text">PY</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cA65H8kMM78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="text">PY</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Media/py2.jpg" style="width:100%">
+  <div class="text">PY</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+<!--Online Video-->
+<center>
+<h3>KEY SKILLS AND ABILITIES</h3>
+<ol>
+	<li>Ability to work indepently and as part of a team.</li>
+	<li>Dedicated to assigned responsibilities and take initiative.</li>
+	<li>Robotics building.</li>
+	<li>Web Site development using HTML and CSS</li>
+	<li>Basic Python</li>
+</ol>
+</center>
+<!--Team members-->
+<center>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h3>ACHIEVEMENTS, LEADERSHIP ROLES AND CLUB MEMBERSHIPS</h3>
+    <ol>
+    	<li>Participated and won the 2018 National Robofest Championship (Team ROiD)</li>
+    	<li>Participated in the 2018 World Robofest Championship, Michigan</li>
+    	<li>Organizer, Robotics and Information Technology Club, Opoku Ware School (2018-2019) 
+</li>
+<li>President, German Club, Opoku Ware School (2018-2019)
+</li>
+    </ol>
+    </center>
+    <center>
+      <h3>INTEREST</h3>
+      <ol>
+        <li>Playing online games especially PUBG</li>
+        <li>Learning German</li>
+      </ol>
+    </center>
+  </div>
+</div>
+
+
+</main>
+
+<footer>
+Copyright &copy PAPAYAW - All rights reserved. 
+
+</footer>
+</body>
+
+
+
+
+
+</html>
+
+

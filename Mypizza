@@ -1,0 +1,6 @@
+print("Input the length of the pizza: ", end=" ")
+inputVal = input()
+radius = float(inputVal)
+Aofpizza = radius * radius
+numberofpeople = int (Aofpizza/100)
+if numberofpeople < 1:
